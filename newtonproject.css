@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    /* background-color: yellow; */
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    margin: 65px auto;
+}
+
+@media screen and (max-width:600px){
+    
+.container{
+flex-direction: column;
+height: auto;
+}
+}
+
+.class{
+    /* background-color: aliceblue; */
+    /* border: 2px solid black; */
+    width: 43vh;
+    height: 79.9vh;
+    /* float: left; */
+    display: flex;
+    flex-direction: column;
+}
+
+.inner{
+    /* border: 1px solid black; */
+    height: 20vh;
+    padding:1rem 2rem ;
+}
+.icon{
+    padding-top: 3rem;
+}
+#inner1{
+    background-color: #f08700;
+}
+#inner2{
+    background-color: rgb(19, 149, 149);
+}
+#inner3{
+    background-color: #274136;
+}
+.learn{
+    border: 1px solid white;
+    border-radius:20px ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 7vh;
+    margin-top: 7.5vh;
+    background-color: white;
+}
+#learn1{
+color:#f08700 ;
+}
+
+#learn1:hover{
+    color: white;
+background-color:#f08700 ;
+}
+
+#learn2{
+    color: rgb(19, 149, 149)  ;
+}
+
+#learn2:hover{
+    color: white;
+    background-color: rgb(19, 
+149, 149)  ;
+}
+
+
+
+
+#learn3{
+   color: #274136 ; 
+}
+
+#learn3:hover{
+    color: white;
+   background-color: #274136 ; 
+}
+#learn3:active{
+    color: white;
+background-color:black ;
+}
+
+.car{
+    font-size: 2rem;
+    color: white;
+    font-family: sans-serif;
+}
+.description{
+    color: white;
+    line-height: 21px;
+    font-size: 16px;
+    padding-top: 0px;
+}
+.car{
+    height: 15vh;
+}
